@@ -33,7 +33,7 @@ app.put('/word/:_id' ,(req,res) => {
     })
     .catch(error => res.send({success : false , message : 'INVALID_INPUT!'}));
 })
-app.listen(process.env.PORT || 4000 , ()=> console.log("Server start"));
+app.listen( 4000 , ()=> console.log("Server start"));
 
 // mongodb://abc:A123456@ds235860.mlab.com:35860/reactnative
 // app.get("/cong/:a/:b" , (req , res) =>{
